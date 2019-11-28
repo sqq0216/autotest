@@ -1,4 +1,4 @@
-# pyhton web 开发过程（django开发入门）
+# python web 开发过程（django开发入门）
 ## django简介
 开发模式为MTV：  
 - M 带包模型(Model) 负责业务对象和数据库的关系映射(ORM)
