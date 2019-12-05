@@ -12,10 +12,10 @@
    - django-admin startproject autotest（生成文件夹和manage.py）
 3. 开启服务进行测试
    - python manage.py runserver（可以进行访问默认端口8000）
-4. 创建后端
+4. 创建后端(默认开启的某些应用需要至少一个数据表，所以，在使用他们之前需要在数据库中创建一些表。)
    - python manage.py makemigrations
    - python manage.py migrate
-   - python manage.py createsuperuser
+   - python manage.py createsuperuser(创建超级用户)
 5. 创建应用
    - python manage.py startapp apitest
    - 在settings中添加app信息(注册应用程序)
@@ -27,3 +27,4 @@
    - template下新建login.py文件编写html
    - 在views中添加login函数
    - 在url.py中添加映射
+9. 

@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib import auth
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
-
+#from . import templates
 # Create your views here.
 def test(request):
     return HttpResponse("hello test")

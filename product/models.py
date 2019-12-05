@@ -6,16 +6,16 @@ class Product(models.Model):
     producter = models.CharField('产品负责人',max_length=200)
     create_time = models.DateTimeField('创建时间',auto_now=True)
 
-    class Meta:
-        verbose_name = '产品名称'
-        verbose_name_plural = '产品管理'
-    def __str__(self):
-        return self.productname
-    class Menu:
-        verbose_name = '产品描述'
-        verbose_name_plural = '产品描述'
-        def __str__(self):
-            return self.productdesc
+# class Meta:
+#     verbose_name = '产品名称'
+#     verbose_name_plural = '产品管理'
+# def __str__(self):
+#         return self.productname
+# class Menu:
+#     verbose_name = '产品描述'
+#     verbose_name_plural = '产品描述'
+# def __str__(self):
+#         return self.productdesc
 
 
 
