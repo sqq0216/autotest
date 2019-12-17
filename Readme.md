@@ -27,4 +27,22 @@
    - template下新建login.py文件编写html
    - 在views中添加login函数
    - 在url.py中添加映射
-9. 
+ # 自动化平台开发
+ ## 登录和退出功能
+ 在views中添加逻辑代码，并在template下创建html文件，然后在url中添加映射，即可
+ ## 产品管理
+
+ ## 接口自动化
+ 1. models：通过models.foreignkey与产品关联
+ 2. django.contrib.admin--管理admin界面的数据模型，通过编写model文件定义数据库表，然后在admin中进行注册（admin.site.register()）之后就可以在admin首页看到相应的数据表。
+ 3. 管理页面可以通过admin进行自定义，显示指定的数据（不会把数据库中的数据项全部显示出来）
+     - 表单：field（'',''）--也可以嵌套：field（[‘’，{field('','')}], []）————控制add界面里的标签显示
+     - 内联显示：将其中一个类内联到另一个里面
+     - 列表显示（list_display)：————控制清单界面的显示（每一列的列头）
+ ## BUG管理
+ 1. 设计数据库models，
+ 2. admin自定义表单
+ 3. setting 注册新的bug应用
+ ## 系统设置（同bug管理）
+ 未实现
+ ##   

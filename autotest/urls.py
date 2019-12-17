@@ -19,13 +19,12 @@ from apitest import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('apitest/', include('apitest.urls')),
-    # path('product/', include('product.urls')),
-    # path('test/', views.test),
-    # path('login/', views.login),
-    # path('home/', views.home),
-    # path('logout/', views.logout),
-    path('polls/', include('polls.urls')),
-
-   
+    path('test/', views.test),
+    path('login/', views.login),
+    path('home/', views.home),
+    path('logout/', views.logout),
+    path('product/', include('product.urls')),
+    # path('polls/', include('polls.urls')),
+    # path('apitest/', include('apitest.urls')),
+    
 ]
